@@ -1,0 +1,16 @@
+{
+  "label": {
+    "de": "WOTipps HTML reduzieren und komprimieren",
+    "en": "WOTipps compress HTML"
+  },
+  "copyright": "(c) by Niklas B&uuml;chner",
+  "license": "MIT",
+  "link": "http://www.webseiten-optimierungs-tipps.de",
+  "author": "Niklas B&uum;chner",
+
+  "currentVersion": "1.0.6",
+
+  "compatibility": {
+    "minimumVersion": "5.0.0",
+  }
+}
