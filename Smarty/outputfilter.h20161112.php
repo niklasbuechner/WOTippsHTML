@@ -15,12 +15,12 @@
  */
 function smarty_outputfilter_h20161112($output)
 {
-    if( strpos($output, "<head>" ) == -1 )
-    {
+    if (mb_strpos($output, "<head>") == -1) {
         return $output;
     }
 
     $tmp = trim($output);
     $tmp = preg_replace('/<!--(?!\s*(?:\[if [^\]]+]|<!|>))(?:(?!-->).)*-->/s', '', $tmp);
+
     return preg_replace('/>\s+</s', '> <', $tmp);
 }
